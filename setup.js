@@ -25,8 +25,8 @@ passport.serializeUser(function(user, done) {
  //let mysite = process.env.SEV;
   
 passport.use(new GoogleStrategy({
-    clientID: "865219137619-q73sn6ohpuebftlakie3u15h34v3mssv.apps.googleusercontent.com",
-    clientSecret: "-uocLHpouUeeP4TKTO0MCuB-",
+    clientID: "Your client ID",
+    clientSecret: "Your cliend secret",
     callbackURL: "http://localhost:3000/google/callback"
   },
   function(accessToken, refreshToken, profile, done) {
